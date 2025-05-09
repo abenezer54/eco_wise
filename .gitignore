@@ -1,0 +1,17 @@
+# Go and general files
+go.mod
+go.sum
+.env
+.vscode/
+
+# Python/computer vision files
+computer_vision/coco.names
+computer_vision/frozen_inference_graph.pb
+computer_vision/yolov3.cfg
+computer_vision/yolov3.weights
+computer_vision/yolov3.weights.crdownload
+computer_vision/venv/
+
+# Node/Frontend-specific (if needed)
+frontend/node_modules/
+frontend/.env

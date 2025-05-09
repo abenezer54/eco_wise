@@ -1,0 +1,40 @@
+/* 
+import serial
+import time
+
+try:
+    ser = serial.Serial('/dev/ttyACM0', 9600)  # Replace '/dev/ttyACM0' with your Arduino's serial port (e.g., 'COM3' on Windows)
+    time.sleep(2) #important for connection to establish
+    ser.write(b"move_servo\n")  # Send the command (must be a byte string)
+    print("Command sent to Arduino")
+    ser.close()
+except serial.SerialException as e:
+    print(f"Error: {e}")
+
+
+    
+*/
+
+
+
+
+
+
+
+/*   # ... (your computer vision code)
+
+if bottle_detected:
+    print("Bottle detected! Sending command to Arduino.")
+    try:
+        ser = serial.Serial('/dev/ttyACM0', 9600)  # Replace with your Arduino's serial port
+        time.sleep(2)
+        ser.write(b"move_servo\n")
+        ser.close()
+    except serial.SerialException as e:
+        print(f"Error: {e}")
+
+
+
+
+        */
+
